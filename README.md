@@ -1,6 +1,4 @@
 # Verificador de Integridade de Arquivos (SHA-256) em Python
-
----
 Este é um projeto desenvolvido para fins de estudo em **cibersegurança**, focado na validação de arquivos usando de hash criptográficos.
 
 O objetivo é simular uma ferramenta real utilizada em ambientes de segurança, permitindo gerar e verificar assinaturas (hashes) para assegurar que um arquivo não foi modificado.
@@ -8,12 +6,8 @@ O objetivo é simular uma ferramenta real utilizada em ambientes de segurança, 
 O sistema é executado inteiramente via **linha de comando (CLI)** e permite gerar hashes, verificar a integridade e manipular arquivos de teste.
 
 ## Tech Stack
-
----
 [![My Skills](https://skillicons.dev/icons?i=python)](https://skillicons.dev)
 ## Funcionalidades
-
----
 O sistema permite ao usuário executar as seguintes ações via terminal:
 
 - **Gerar hash SHA-256 (`generate`)**
@@ -30,8 +24,6 @@ O sistema permite ao usuário executar as seguintes ações via terminal:
     Mensagens claras para arquivos inexistentes ou hashes ausentes.
 
 ## Estrutura de Dados e Tecnologia
-
----
 * `open()` e operações de leitura binária: manipulação segura de arquivos.
 * `hashlib.sha256`: algoritmo de hash criptograficamente seguro.
 * `sys.argv`: leitura de argumentos via CLI.
@@ -39,8 +31,6 @@ O sistema permite ao usuário executar as seguintes ações via terminal:
 A escolha dessas ferramentas visa manter o projeto simples, portátil e seguro.
 
 ## Como Executar
-
----
 Este é um projeto simples que não depende de bibliotecas externas.
 
 **1. Clone o repositório:**
@@ -63,11 +53,7 @@ Este é um projeto simples que não depende de bibliotecas externas.
 
 **3. O resultado será exibido no terminal informando a situação do arquivo.**
 
----
-
 ## Estrutura de Arquivos
-
----
 O projeto segue uma estrutura simples e objetiva:
 
 ```bash
