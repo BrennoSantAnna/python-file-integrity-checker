@@ -6,7 +6,7 @@ O objetivo é simular uma ferramenta real utilizada em ambientes de segurança, 
 O sistema é executado inteiramente via **linha de comando (CLI)** e permite gerar hashes, verificar a integridade e manipular arquivos de teste.
 
 ## Tech Stack
-[![My Skills](https://skillicons.dev/icons?i=python)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=python,linux)](https://skillicons.dev)
 ## Funcionalidades
 O sistema permite ao usuário executar as seguintes ações via terminal:
 
@@ -41,6 +41,10 @@ Este é um projeto simples que não depende de bibliotecas externas.
 
 **2. Execute a ferramenta:**
 
+Escolha o comando de acordo com seu sistema operacional:
+
+#### Linux / macOS
+
 ### 🔸 Gerar hash:
 ```bash
    python3 file_integrity_checker.py generate <nome_do_arquivo.txt>
@@ -49,6 +53,17 @@ Este é um projeto simples que não depende de bibliotecas externas.
 ### 🔸 Verificar hash:
 ```bash
    python3 file_integrity_checker.py verify <nome_do_arquivo.txt>
+```
+---
+
+#### Windows
+### 🔸 Gerar hash:
+```bash
+   python file_integrity_checker.py generate <nome_do_arquivo.txt>
+```
+### 🔸 Verificar hash:
+```bash
+   python file_integrity_checker.py verify <nome_do_arquivo.txt>
 ```
 
 **3. O resultado será exibido no terminal informando a situação do arquivo.**
